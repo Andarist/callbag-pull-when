@@ -1,6 +1,6 @@
 {
   "name": "callbag-pull-when",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "👜 Callbag operator that samples from source when provided listenable emits.",
   "main": "dist/callbag-pull-when.js",
   "module": "dist/callbag-pull-when.es.js",
