@@ -1,0 +1,50 @@
+{
+  "name": "callbag-pull-when",
+  "version": "1.0.0",
+  "description": "👜 Callbag operator that samples from source when provided listenable emits.",
+  "main": "dist/callbag-pull-when.js",
+  "module": "dist/callbag-pull-when.es.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "pretest": "npm run build",
+    "test": "jest",
+    "precommit": "lint-staged",
+    "prebuild": "rimraf dist",
+    "build": "rollup -c",
+    "prepare": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andarist/callbag-pull-when.git"
+  },
+  "keywords": [
+    "callbag",
+    "callbags",
+    "sample"
+  ],
+  "author": "Mateusz Burzyński <mateuszburzynski@gmail.com> (https://github.com/Andarist)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Andarist/callbag-pull-when/issues"
+  },
+  "homepage": "https://github.com/Andarist/callbag-pull-when#readme",
+  "devDependencies": {
+    "@babel/core": "7.0.0-beta.42",
+    "@babel/preset-env": "7.0.0-beta.42",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^22.4.3",
+    "callbag-for-each": "^1.0.1",
+    "callbag-from-iter": "^1.0.0",
+    "callbag-pipe": "^1.1.1",
+    "callbag-subject": "^1.0.2",
+    "husky": "^0.14.3",
+    "jest": "^22.4.3",
+    "lint-staged": "^7.0.0",
+    "prettier": "^1.11.1",
+    "rimraf": "^2.6.2",
+    "rollup": "^0.57.1",
+    "rollup-plugin-babel": "^4.0.0-beta.3"
+  }
+}
