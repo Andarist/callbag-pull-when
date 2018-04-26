@@ -1,4 +1,4 @@
-export default function sampleWhen(sampler) {
+export default function pullWhen(sampler) {
   return pullable => (start, sink) => {
     if (start !== 0) return
 
